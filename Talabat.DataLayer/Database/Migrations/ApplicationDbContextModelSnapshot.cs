@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Talabat.Database;
-using Talabat.DataLayer;
+using Talabat.DataLayer.Database;
 
 
 #nullable disable

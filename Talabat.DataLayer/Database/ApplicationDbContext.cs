@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Talabat.DataLayer.Models;
 
-namespace Talabat.DataLayer
+namespace Talabat.DataLayer.Database
 {
     public class ApplicationDbContext : DbContext
     {

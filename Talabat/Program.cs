@@ -5,7 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using Talabat.BusinessLayer.Interfaces;
 using Talabat.BusinessLayer.Services;
 using Talabat.Database;
-using Talabat.DataLayer;
+using Talabat.DataLayer.Database;
 using Talabat.DataLayer.Interfaces;
 using Talabat.DataLayer.Repositories;
 
