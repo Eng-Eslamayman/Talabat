@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talabt - Login/Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Talabat</h1>
+        <div id="loginForm">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button onclick="handleLogin()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="toggleForms()">Register</a></p>
+        </div>
+        <div id="registerForm" style="display: none;">
+            <h2>Register</h2>
+            <input type="text" id="registerUsername" placeholder="Username" required>
+            <input type="email" id="registerEmail" placeholder="Email" required>
+            <input type="password" id="registerPassword" placeholder="Password" required>
+            <button onclick="handleRegister()">Register</button>
+            <p>Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
+        </div>
+    </div>
+    <script src="js/api.js"></script>
+</body>
+</html>
